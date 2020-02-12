@@ -1,4 +1,4 @@
-package com.example.uploadmultiplephotosdemo;
+package com.example.uploadmultiplephotosdemo.updataImages;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,6 +8,7 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
+import com.example.uploadmultiplephotosdemo.R;
 
 import java.util.ArrayList;
 import java.util.List;

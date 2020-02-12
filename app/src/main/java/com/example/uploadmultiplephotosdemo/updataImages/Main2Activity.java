@@ -1,19 +1,12 @@
-package com.example.uploadmultiplephotosdemo;
+package com.example.uploadmultiplephotosdemo.updataImages;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Dialog;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.ImageView;
 
-import com.bumptech.glide.Glide;
+import com.example.uploadmultiplephotosdemo.R;
 import com.example.uploadmultiplephotosdemo.util.WebImageLoader;
 import com.youth.banner.Banner;
-import com.youth.banner.listener.OnBannerListener;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class Main2Activity extends AppCompatActivity {
 

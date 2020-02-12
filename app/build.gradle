@@ -37,4 +37,7 @@ dependencies {
     implementation 'cn.finalteam:galleryfinal:1.4.3'
 //    implementation 'com.ufo:DWImageSelector:0.9.5'
 
+    //搜索历史记录
+    implementation 'com.wenwenwen888:searchbox:1.0.1'
+
 }

@@ -1,4 +1,4 @@
-package com.example.uploadmultiplephotosdemo;
+package com.example.uploadmultiplephotosdemo.updataImages;
 
 import androidx.appcompat.app.AppCompatActivity;
 import cn.finalteam.galleryfinal.BuildConfig;
@@ -9,7 +9,6 @@ import cn.finalteam.galleryfinal.ThemeConfig;
 import cn.finalteam.galleryfinal.model.PhotoInfo;
 
 import android.content.Intent;
-import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
@@ -17,6 +16,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.GridView;
 
+import com.example.uploadmultiplephotosdemo.R;
 import com.example.uploadmultiplephotosdemo.util.GlideImageLoader;
 
 import java.io.File;
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,Main2Activity.class);
+                Intent intent = new Intent(MainActivity.this, Main2Activity.class);
                 startActivity(intent);
             }
         });
